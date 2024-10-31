@@ -3,7 +3,7 @@ import AppError from "@/utils/appErrors";
 import catchAsync from "@/utils/catchAsync";
 import { sendUnaryData, ServerUnaryCall, status } from "@grpc/grpc-js";
 
-export const createCareer = catchAsync(
+const createCareer = catchAsync(
   async (
     call: ServerUnaryCall<{ name: string }, unknown>,
     callback: sendUnaryData<Career>
@@ -20,7 +20,7 @@ export const createCareer = catchAsync(
   }
 );
 
-export const getCareer = catchAsync(
+const getCareer = catchAsync(
   async (
     call: ServerUnaryCall<{ id: string }, unknown>,
     callback: sendUnaryData<Career>
@@ -35,7 +35,7 @@ export const getCareer = catchAsync(
   }
 );
 
-export const updateCareer = catchAsync(
+const updateCareer = catchAsync(
   async (
     call: ServerUnaryCall<{ id: string; name: string }, unknown>,
     callback: sendUnaryData<Career>
@@ -61,7 +61,7 @@ export const updateCareer = catchAsync(
   }
 );
 
-export const deleteCareer = catchAsync(
+const deleteCareer = catchAsync(
   async (
     call: ServerUnaryCall<{ id: string }, unknown>,
     callback: sendUnaryData<{ success: boolean }>
@@ -80,7 +80,7 @@ export const deleteCareer = catchAsync(
   }
 );
 
-export const getAllCareers = catchAsync(
+const getAllCareers = catchAsync(
   async (
     call: ServerUnaryCall<{}, unknown>,
     callback: sendUnaryData<{ careers: Career[] }>
@@ -89,3 +89,11 @@ export const getAllCareers = catchAsync(
     return callback(null, { careers });
   }
 );
+
+export default {
+  createCareer,
+  deleteCareer,
+  getAllCareers,
+  getCareer,
+  updateCareer,
+};
