@@ -14,12 +14,30 @@ process.on("uncaughtException", (err: any) => {
 });
 
 dotenv.config({ path: "./.env" });
+import { connect } from "mongoose";
 
 console.log(process.env.NODE_ENV);
 
 import app from "./app";
 
 export default app;
+
+if (
+  !process.env.DATABASE ||
+  !process.env.DATABASE_PASSWORD ||
+  !process.env.DATABASE_USER
+) {
+  throw new Error(
+    "Missing environment variables: DATABASE, DATABASE_PASSWORD, or DATABASE_USER."
+  );
+}
+
+const DB = process.env.DATABASE.replace(
+  "<PASSWORD>",
+  process.env.DATABASE_PASSWORD
+).replace("<USER>", process.env.DATABASE_USER);
+
+connect(DB).then(() => console.log("✓ Conexión a base de datos exitosa"));
 
 const port = process.env.PORT || 3000;
 const server = app.listen(port, () => {
