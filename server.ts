@@ -16,8 +16,6 @@ process.on("uncaughtException", (err: any) => {
 dotenv.config({ path: "./.env" });
 import { connect } from "mongoose";
 
-console.log(process.env.NODE_ENV);
-
 import app from "./app";
 
 export default app;
