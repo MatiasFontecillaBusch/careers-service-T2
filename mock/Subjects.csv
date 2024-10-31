@@ -1,51 +1,51 @@
-code,name,department,semester,createdAt,updatedAt,deletedAt,version
-RCPO,Ornamental Railings,Entravision Communications Corporation,7,7/27/2024,5/11/2024,9/19/2024,2
-USSS,Glass & Glazing,Liberty Broadband Corporation,10,4/3/2024,12/11/2023,11/6/2023,59
-GFHA,RF Shielding,Public Service Enterprise Group Incorporated,5,5/4/2024,8/1/2024,7/2/2024,88
-FQIB,Retaining Wall and Brick Pavers,Resource Capital Corp.,5,9/15/2024,3/31/2024,10/20/2024,7
-FBGZ,Curb & Gutter,"Dreyfus Strategic Municipals, Inc.",4,10/31/2023,2/9/2024,1/8/2024,40
-YBDG,Roofing (Asphalt),Enduro Royalty Trust,1,7/10/2024,5/23/2024,11/13/2023,47
-,Drywall & Acoustical (MOB),"Inspired Entertainment, Inc.",4,3/9/2024,8/12/2024,3/16/2024,58
-RPUR,Soft Flooring and Base,J P Morgan Chase & Co,2,12/22/2023,9/26/2024,7/9/2024,100
-YTMO,Masonry,"Determine, Inc. ",6,1/8/2024,9/28/2024,7/17/2024,43
-HCMB,Roofing (Asphalt),"NextEra Energy, Inc.",1,10/21/2024,9/15/2024,12/18/2023,77
-KBGD,HVAC,"NextEra Energy, Inc.",3,8/3/2024,4/11/2024,7/18/2024,18
-CYSY,Termite Control,TICC Capital Corp.,3,2/11/2024,1/19/2024,2/8/2024,33
-ZPSM,Wall Protection,First Trust NASDAQ-100 Equal Weighted Index Fund,3,6/18/2024,7/22/2024,12/22/2023,68
-VDST,Fire Protection,"Provident Bancorp, Inc.",4,12/25/2023,8/12/2024,2/23/2024,1
-KPBI,Retaining Wall and Brick Pavers,Nuveen New York AMT-Free Quality Municipal,10,10/20/2024,9/24/2024,9/2/2024,18
-PALP,Wall Protection,"Shiloh Industries, Inc.",7,2/2/2024,9/18/2024,12/5/2023,90
-ZBEN,Retaining Wall and Brick Pavers,The York Water Company,3,5/10/2024,1/28/2024,12/21/2023,16
-USII,Soft Flooring and Base,"Willbros Group, Inc.",2,11/24/2023,9/11/2024,2/21/2024,44
-UWSS,Termite Control,"Snyder's-Lance, Inc.",5,3/15/2024,3/26/2024,5/1/2024,61
-KMFE,EIFS,"Teligent, Inc.",2,5/9/2024,2/4/2024,5/21/2024,62
-SPJC,Prefabricated Aluminum Metal Canopies,Attunity Ltd.,8,9/19/2024,10/8/2024,6/3/2024,8
-YBCK,Asphalt Paving,"Key Technology, Inc.",4,12/8/2023,8/31/2024,10/30/2024,28
-UAII,Curb & Gutter,"GSI Technology, Inc.",5,9/14/2024,8/25/2024,6/9/2024,69
-OJMF,Framing (Steel),Enzymotec Ltd.,6,3/4/2024,12/25/2023,10/1/2024,61
-CYWE,Landscaping & Irrigation,Cognex Corporation,8,3/31/2024,7/15/2024,1/21/2024,17
-AGGB,Soft Flooring and Base,Healthcare Realty Trust Incorporated,1,6/29/2024,6/10/2024,6/26/2024,77
-MMCY,Framing (Wood),"CenterPoint Energy, Inc.",2,1/20/2024,4/9/2024,8/16/2024,75
-DNMN,EIFS,PowerShares Global Agriculture Portfolio,9,3/25/2024,4/15/2024,12/26/2023,47
-PAGQ,Drilled Shafts,Hydrogenics Corporation,1,10/24/2024,7/31/2024,7/5/2024,67
-CYNA,Painting & Vinyl Wall Covering,"Cree, Inc.",4,9/7/2024,11/7/2023,12/10/2023,18
-PADQ,Epoxy Flooring,"United Bancshares, Inc.",10,8/5/2024,6/4/2024,7/15/2024,26
-KEED,Granite Surfaces,Rogers Corporation,8,6/26/2024,12/4/2023,6/2/2024,80
-ESUE,Framing (Steel),Nuveen All Cap Energy MLP Opportunities Fund,8,1/29/2024,8/4/2024,4/20/2024,11
-,Asphalt Paving,Wright Medical Group N.V.,2,4/27/2024,9/8/2024,12/10/2023,95
-SADF,Fire Sprinkler System,Gladstone Investment Corporation,3,2/14/2024,5/31/2024,10/22/2024,79
-PAJN,Epoxy Flooring,"Biostar Pharmaceuticals, Inc.",6,8/25/2024,8/20/2024,6/9/2024,88
-KALW,Masonry,"Sandy Spring Bancorp, Inc.",9,12/16/2023,3/5/2024,11/24/2023,20
-URKK,Masonry & Precast,"Papa Murphy's Holdings, Inc.",4,10/28/2024,8/28/2024,5/30/2024,68
-YCUE,Rebar & Wire Mesh Install,"Freshpet, Inc.",10,3/12/2024,1/26/2024,9/17/2024,38
-MPPA,Fire Protection,Alcentra Capital Corp.,5,10/19/2024,1/23/2024,11/11/2023,6
-AYAG,Framing (Wood),STERIS plc,9,6/16/2024,8/31/2024,12/18/2023,56
-VEDB,Termite Control,"Heritage-Crystal Clean, Inc.",4,4/12/2024,1/1/2024,9/25/2024,4
-UNII,Curb & Gutter,Chemed Corp.,2,7/8/2024,9/27/2024,5/19/2024,89
-OEYN,Exterior Signage,Advent Claymore Convertible Securities and Income Fund II,10,9/1/2024,12/21/2023,3/14/2024,94
-OPLA,Drywall & Acoustical (FED),Lumentum Holdings Inc.,8,8/21/2024,5/22/2024,8/30/2024,12
-SCJO,Hard Tile & Stone,"CYS Investments, Inc.",3,6/16/2024,5/2/2024,8/27/2024,25
-LDZD,Drywall & Acoustical (FED),"Consolidated Communications Holdings, Inc.",1,11/19/2023,9/8/2024,8/25/2024,3
-YGDN,Landscaping & Irrigation,Inseego Corp.,4,6/10/2024,9/25/2024,8/19/2024,18
-KRAL,Structural & Misc Steel Erection,Valero Energy Partners LP,6,9/20/2024,3/17/2024,8/18/2024,77
-DNPO,Hard Tile & Stone,ZIOPHARM Oncology Inc,6,4/13/2024,1/4/2024,9/4/2024,9
+code,name,credits,department,semester,createdAt,updatedAt,deletedAt,version
+LTFC,Curb & Gutter,26,Asia Pacific Wire & Cable Corporation Limited,2,8/4/2024,6/23/2024,null,9
+USHQ,Hard Tile & Stone,45,PowerShares DWA Energy Momentum Portfolio,9,11/17/2023,7/8/2024,null,26
+PAGQ,Structural and Misc Steel (Fabrication),86,"Dupont Fabros Technology, Inc.",2,5/9/2024,7/8/2024,null,19
+LFAV,Construction Clean and Final Clean,59,Liberty Broadband Corporation,2,1/4/2024,12/25/2023,null,57
+AYOG,Framing (Wood),61,"Orexigen Therapeutics, Inc.",4,8/6/2024,8/14/2024,null,24
+WASU,Asphalt Paving,76,Kimco Realty Corporation,6,10/4/2024,10/15/2024,null,89
+KALX,"Doors, Frames & Hardware",48,TAT Technologies Ltd.,7,4/15/2024,11/2/2023,null,74
+KMWH,Curb & Gutter,38,Easterly Acquisition Corp.,8,7/12/2024,4/12/2024,null,68
+EFJO,Roofing (Metal),31,iShares Core MSCI Total International Stock ETF,1,1/23/2024,5/23/2024,null,32
+MRAO,Rebar & Wire Mesh Install,13,Invesco Quality Municipal Income Trust,1,3/14/2024,9/1/2024,null,50
+MHRU,Structural & Misc Steel Erection,5,"Alaska Communications Systems Group, Inc.",9,6/19/2024,7/6/2024,null,42
+LGKA,Drilled Shafts,64,"Westbury Bancorp, Inc.",6,12/25/2023,9/18/2024,null,46
+CSU2,Roofing (Asphalt),40,"Value Line, Inc.",5,5/6/2024,9/9/2024,null,95
+GFGK,Waterproofing & Caulking,43,"Great Western Bancorp, Inc.",9,2/7/2024,7/7/2024,null,35
+F70,Waterproofing & Caulking,65,First Trust CEF Income Opportunity ETF,7,5/13/2024,8/13/2024,null,81
+DXNG,Sitework & Site Utilities,33,"Canon, Inc.",1,12/10/2023,2/21/2024,null,20
+EFKK,Termite Control,16,"Staffing 360 Solutions, Inc.",7,4/17/2024,6/16/2024,null,23
+YSTH,Overhead Doors,56,"Manhattan Bridge Capital, Inc",3,3/25/2024,6/25/2024,null,29
+FKKV,Structural and Misc Steel (Fabrication),31,SteadyMed Ltd.,7,2/23/2024,2/17/2024,null,95
+CYQN,Retaining Wall and Brick Pavers,22,"Blackbaud, Inc.",1,12/15/2023,6/22/2024,null,47
+YTRE,Granite Surfaces,39,Oconee Federal Financial Corp.,3,12/10/2023,1/30/2024,null,90
+SKFU,Electrical and Fire Alarm,8,Otter Tail Corporation,10,7/26/2024,5/28/2024,null,12
+YHSM,Epoxy Flooring,80,Agnico Eagle Mines Limited,7,10/30/2024,10/10/2024,null,23
+VTBK,Curb & Gutter,64,"Westmoreland Resource Partners, LP",7,1/6/2024,7/29/2024,null,23
+YIGM,RF Shielding,85,Hunter Maritime Acquisition Corp.,4,2/12/2024,4/27/2024,null,43
+,Curb & Gutter,64,Markel Corporation,1,3/5/2024,9/7/2024,null,45
+RJOW,Granite Surfaces,77,Briggs & Stratton Corporation,2,6/8/2024,9/9/2024,null,89
+ZBAR,Epoxy Flooring,95,ProPetro Holding Corp.,2,3/7/2024,11/27/2023,null,38
+KGVL,"Temp Fencing, Decorative Fencing and Gates",29,"Fiserv, Inc.",3,3/31/2024,2/1/2024,null,88
+AYKM,HVAC,24,Golden Ocean Group Limited,3,9/5/2024,10/19/2024,null,4
+TJSJ,Granite Surfaces,6,LiNiu Technology Group,8,1/5/2024,4/18/2024,null,40
+SVST,Wall Protection,81,"Armstrong Flooring, Inc.",5,2/7/2024,7/7/2024,null,52
+FEFG,Casework,20,State Street Corporation,2,6/6/2024,7/23/2024,null,76
+LBTG,Roofing (Metal),86,KKR Income Opportunities Fund,10,5/13/2024,10/31/2023,null,30
+KASX,Waterproofing & Caulking,82,"Carrizo Oil & Gas, Inc.",4,8/23/2024,2/18/2024,null,17
+PHNG,Glass & Glazing,5,"Aptose Biosciences, Inc.",1,7/24/2024,12/23/2023,null,9
+NVSC,"Temp Fencing, Decorative Fencing and Gates",60,Public Storage,8,12/12/2023,5/2/2024,null,80
+YMUG,RF Shielding,24,BlackRock Resources,9,3/1/2024,2/29/2024,null,88
+SWST,"Doors, Frames & Hardware",60,"Patriot National, Inc.",3,9/20/2024,3/30/2024,null,49
+LFMV,Glass & Glazing,49,"ING Group, N.V.",8,10/25/2024,12/20/2023,null,91
+KSEE,Framing (Steel),81,iPath US Treasury 2-year Bull ETN,5,2/8/2024,2/13/2024,null,60
+OPTH,Framing (Steel),75,ProShares Ultra Nasdaq Biotechnology,2,4/6/2024,4/14/2024,null,40
+KMAC,Framing (Wood),28,PowerShares DWA Energy Momentum Portfolio,1,4/12/2024,11/3/2023,null,75
+YTGM,Masonry,64,ManpowerGroup,9,4/24/2024,8/6/2024,null,48
+E13,Sitework & Site Utilities,13,Sears Holdings Corporation,5,1/26/2024,11/5/2023,null,23
+,Fire Sprinkler System,73,"Anthera Pharmaceuticals, Inc.",5,5/15/2024,2/10/2024,null,83
+FCOU,Wall Protection,41,Zynga Inc.,10,8/31/2024,6/29/2024,null,63
+CYYR,Fire Sprinkler System,64,iShares Commodities Select Strategy ETF,10,1/21/2024,1/19/2024,null,84
+,Hard Tile & Stone,82,Andina Acquisition Corp. II,10,5/8/2024,10/15/2024,null,87
+UMBB,Fire Protection,75,"Lakeland Bancorp, Inc.",4,8/25/2024,6/10/2024,null,7
