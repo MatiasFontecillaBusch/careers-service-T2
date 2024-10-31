@@ -16,9 +16,10 @@ process.on("uncaughtException", (err: any) => {
 dotenv.config({ path: "./.env" });
 import { connect } from "mongoose";
 
-import app from "./app";
+import server from "./app";
+import { ServerCredentials } from "@grpc/grpc-js";
 
-export default app;
+export default server;
 
 if (
   !process.env.DATABASE ||
@@ -37,26 +38,18 @@ const DB = process.env.DATABASE.replace(
 
 connect(DB).then(() => console.log("✓ Conexión a base de datos exitosa"));
 
-const port = process.env.PORT || 3000;
-const server = app.listen(port, () => {
-  console.log(
-    `- Entorno:      ${environments[process.env.NODE_ENV || "development"]}`
-  );
-  console.log(`- Puerto:       ${port}`);
-  console.log(`- URL:          ${process.env.SERVER_URL}:${port}`);
-});
-
-process.on("unhandledRejection", (err: any) => {
-  console.log("UNHANDLED REJECTION! Apagando el servidor...");
-  console.log(err.name, err.message);
-  server.close(() => {
-    process.exit(1);
-  });
-});
-
-process.on("SIGTERM", () => {
-  console.log("SIGTERM RECEIVED. Apagando el servidor.");
-  server.close(() => {
-    console.log("Servidor apagado!");
-  });
-});
+server.bindAsync(
+  `${process.env.SERVER_URL}:${process.env.PORT || 3000}`,
+  ServerCredentials.createInsecure(),
+  (error, port) => {
+    if (error) {
+      console.error("Server failed to bind:", error);
+    } else {
+      console.log(
+        `- Entorno:      ${environments[process.env.NODE_ENV || "development"]}`
+      );
+      console.log(`- Puerto:       ${port}`);
+      console.log(`- URL:          ${process.env.SERVER_URL}:${port}`);
+    }
+  }
+);

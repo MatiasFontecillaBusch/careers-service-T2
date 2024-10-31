@@ -1,4 +1,4 @@
-import { model, Schema } from "mongoose";
+import { InferSchemaType, model, Schema } from "mongoose";
 
 const CareerSchema = new Schema({
   name: { type: String, maxlength: 250, required: true },
@@ -8,5 +8,7 @@ const CareerSchema = new Schema({
   version: { type: Number, default: 1 },
 });
 
+
 const Careers = model("Career", CareerSchema);
 export default Careers;
+export type Career = InferSchemaType<typeof CareerSchema>;

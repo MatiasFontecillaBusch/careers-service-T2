@@ -1,53 +1,11 @@
-import express from "express";
-import helmet from "helmet";
-import cors from "cors";
-import hpp from "hpp";
-import compression from "compression";
-import morgan from "morgan";
-import AppError from "@/utils/appErrors";
-import globalErrorMiddleware from "@/middleware/globalErrorMiddleware";
+import { Server } from "@grpc/grpc-js";
+import { loadProto } from "@/utils/loadProto";
+import { createCareer } from "@/services/careersService";
+import { CareersService } from "@/types";
 
-const app = express();
+const careersProto = loadProto("careers") as CareersService;
 
-app.use(helmet());
+const server = new Server();
+server.addService(careersProto.Careers.service, { createCareer });
 
-// 1) GLOBAL MIDDLEWARES
-
-// Add the body parser middleware here
-app.use(express.json());
-
-// 1) GLOBAL MIDDLEWARES
-// Implement CORS
-app.use(cors());
-
-app.use(morgan("dev"));
-
-// Prevent parameter pollution
-app.use(
-  hpp({
-    whitelist: [
-      "duration",
-      "ratingsQuantity",
-      "ratingsAverage",
-      "maxGroupSize",
-      "difficulty",
-      "price",
-    ],
-  })
-);
-
-app.use(compression());
-
-app.get("/", (req, res) => {
-  res.status(200).send("OK");
-});
-
-app.all("*", (req, res, next) => {
-  next(
-    new AppError(`Ruta no encontrada ${req.originalUrl} no encontrada`, 404)
-  );
-});
-
-app.use(globalErrorMiddleware);
-
-export default app;
+export default server;

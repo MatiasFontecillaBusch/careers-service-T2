@@ -1,0 +1,41 @@
+syntax = "proto3";
+
+service Careers {
+  rpc CreateCareer (CreateCareerRequest) returns (Career) {}
+  rpc GetCareer (GetCareerRequest) returns (Career) {}
+  rpc UpdateCareer (UpdateCareerRequest) returns (Career) {}
+  rpc DeleteCareer (DeleteCareerRequest) returns (Career) {}
+  rpc ListCareers (ListCareersRequest) returns (ListCareersResponse) {}
+}
+
+message Career {
+  string id = 1;
+  string name = 2;
+  string createdAt = 3;  
+  string updatedAt = 4;
+  string deletedAt = 5;
+  int32 version = 6;
+}
+
+message CreateCareerRequest {
+  string name = 1;
+}
+
+message GetCareerRequest {
+  string id = 1;
+}
+
+message UpdateCareerRequest {
+  string id = 1;
+  string name = 2;
+}
+
+message DeleteCareerRequest {
+  string id = 1;
+}
+
+message ListCareersRequest {}
+
+message ListCareersResponse {
+  repeated Career careers = 1;
+}

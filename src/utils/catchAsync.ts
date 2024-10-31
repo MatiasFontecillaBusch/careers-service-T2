@@ -1,12 +1,22 @@
-import { Request, Response, NextFunction } from "express";
+import { ServerUnaryCall, sendUnaryData } from "@grpc/grpc-js";
 
-type AsyncHandler = (
-  req: Request,
-  res: Response,
-  next: NextFunction
+type GRPCAsyncHandler<RequestType, ResponseType> = (
+  call: ServerUnaryCall<RequestType, unknown>,
+  callback: sendUnaryData<ResponseType>
 ) => Promise<any>;
 
-export default (fn: AsyncHandler) =>
-  (req: Request, res: Response, next: NextFunction) => {
-    fn(req, res, next).catch(next);
+export default function <RequestType, ResponseType>(
+  fn: GRPCAsyncHandler<RequestType, ResponseType>
+) {
+  return (
+    call: ServerUnaryCall<RequestType, unknown>,
+    callback: sendUnaryData<ResponseType>
+  ) => {
+    fn(call, callback).catch((error) => {
+      callback({
+        code: error.code || 13,
+        message: error.message || "Internal server error",
+      });
+    });
   };
+}
