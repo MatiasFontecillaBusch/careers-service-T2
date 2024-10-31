@@ -7,9 +7,11 @@ import {
   getCareer,
   updateCareer,
 } from "@/services/careersService";
-import { CareersService } from "@/types";
+import { CareersService, SubjectsService } from "@/types";
+import subjectsService from "@/services/subjectsService";
 
 const careersProto = loadProto("careers") as CareersService;
+const subjectsProto = loadProto("subjects") as SubjectsService;
 
 const server = new Server();
 server.addService(careersProto.Careers.service, {
@@ -19,5 +21,6 @@ server.addService(careersProto.Careers.service, {
   deleteCareer,
   getAllCareers,
 });
+server.addService(subjectsProto.Subjects.service, subjectsService);
 
 export default server;

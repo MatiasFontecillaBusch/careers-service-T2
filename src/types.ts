@@ -5,3 +5,11 @@ export interface CareersService extends GrpcObject {
     service: any;
   };
 }
+
+
+export interface SubjectsService extends GrpcObject {
+  Subjects: {
+    service: any;
+  };
+}
+
