@@ -1,0 +1,48 @@
+syntax = "proto3";
+
+service SubjectRelationships {
+  rpc CreateSubjectRelationship (CreateSubjectRelationshipRequest) returns (SubjectRelationship) {}
+  rpc GetSubjectRelationship (GetSubjectRelationshipRequest) returns (SubjectRelationship) {}
+  rpc UpdateSubjectRelationship (UpdateSubjectRelationshipRequest) returns (SubjectRelationship) {}
+  rpc DeleteSubjectRelationship (DeleteSubjectRelationshipRequest) returns (SubjectRelationshipResponse) {}
+  rpc GetAllSubjectRelationships (ListSubjectRelationshipsRequest) returns (ListSubjectRelationshipsResponse) {}
+}
+
+message SubjectRelationship {
+  string id = 1;
+  string subjectCode = 2;
+  string preSubjectCode = 3;
+  string createdAt = 4;
+  string updatedAt = 5;
+  string deletedAt = 6;
+  int32 version = 7;
+}
+
+message CreateSubjectRelationshipRequest {
+  string subjectCode = 1;
+  string preSubjectCode = 2;
+}
+
+message GetSubjectRelationshipRequest {
+  string id = 1;
+}
+
+message UpdateSubjectRelationshipRequest {
+  string id = 1;
+  string subjectCode = 2;
+  string preSubjectCode = 3;
+}
+
+message DeleteSubjectRelationshipRequest {
+  string id = 1;
+}
+
+message ListSubjectRelationshipsRequest {}
+
+message ListSubjectRelationshipsResponse {
+  repeated SubjectRelationship subjectRelationships = 1;
+}
+
+message SubjectRelationshipResponse {
+  bool success = 1;
+}

@@ -13,3 +13,9 @@ export interface SubjectsService extends GrpcObject {
   };
 }
 
+export interface SubjectRelationshipsService extends GrpcObject {
+  SubjectRelationships: {
+    service: any;
+  };
+}
+
