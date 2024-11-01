@@ -1,4 +1,4 @@
-import { InferSchemaType, model, Schema } from "mongoose";
+import { model, Schema } from 'mongoose';
 
 const SubjectRelationshipSchema = new Schema({
   subjectCode: { type: String, maxlength: 255, required: true },
@@ -10,8 +10,7 @@ const SubjectRelationshipSchema = new Schema({
 });
 
 const SubjectsRelationships = model(
-  "SubjectRelationship",
-  SubjectRelationshipSchema
+  'SubjectRelationship',
+  SubjectRelationshipSchema,
 );
 export default SubjectsRelationships;
-export type SubjectsRelationship = InferSchemaType<typeof SubjectRelationshipSchema>;
