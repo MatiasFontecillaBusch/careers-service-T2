@@ -60,7 +60,7 @@ const deleteSubject = catchAsync(async (call, callback) => {
 // Get all Subjects
 const getAllSubjects = catchAsync(async (call, callback) => {
   const subjects = await Subjects.find();
-  return callback(null, { subjects });
+  return callback(null, { data: subjects });
 });
 
 export default {

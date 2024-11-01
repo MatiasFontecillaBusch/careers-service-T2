@@ -85,7 +85,7 @@ export const getPostRequisitesMap = catchAsync(async (call, callback) => {
     }
   });
 
-  callback(null, { postRequisitesMap });
+  callback(null, { data: postRequisitesMap });
 });
 
 // Get Pre-Requisites Map
@@ -100,7 +100,7 @@ export const getPreRequisitesMap = catchAsync(async (call, callback) => {
       preRequisitesMap[sr.subjectCode] = { codes: [sr.preSubjectCode] };
     }
   });
-  callback(null, { preRequisitesMap });
+  callback(null, { data: preRequisitesMap });
 });
 
 export default {

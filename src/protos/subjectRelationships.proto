@@ -55,10 +55,10 @@ message RequisiteList {
 
 
 message PostRequisitesMapResponse {
-  map<string, RequisiteList> postRequisitesMap = 1;
+  map<string, RequisiteList> data = 1;
 }
 
 message PreRequisitesMapResponse {
-  map<string, RequisiteList> preRequisitesMap = 1;
+  map<string, RequisiteList> data = 1;
 }
 
