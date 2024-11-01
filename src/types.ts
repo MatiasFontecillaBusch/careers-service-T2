@@ -6,7 +6,6 @@ export interface CareersService extends GrpcObject {
   };
 }
 
-
 export interface SubjectsService extends GrpcObject {
   Subjects: {
     service: any;
@@ -19,3 +18,4 @@ export interface SubjectRelationshipsService extends GrpcObject {
   };
 }
 
+export type RequisitesMap = { [key: string]: { codes: string[] } };

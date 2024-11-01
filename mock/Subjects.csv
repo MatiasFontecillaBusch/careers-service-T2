@@ -1,51 +1,51 @@
 code,name,credits,department,semester,createdAt,updatedAt,deletedAt,version
-LTFC,Curb & Gutter,26,Asia Pacific Wire & Cable Corporation Limited,2,8/4/2024,6/23/2024,null,9
-USHQ,Hard Tile & Stone,45,PowerShares DWA Energy Momentum Portfolio,9,11/17/2023,7/8/2024,null,26
-PAGQ,Structural and Misc Steel (Fabrication),86,"Dupont Fabros Technology, Inc.",2,5/9/2024,7/8/2024,null,19
-LFAV,Construction Clean and Final Clean,59,Liberty Broadband Corporation,2,1/4/2024,12/25/2023,null,57
-AYOG,Framing (Wood),61,"Orexigen Therapeutics, Inc.",4,8/6/2024,8/14/2024,null,24
-WASU,Asphalt Paving,76,Kimco Realty Corporation,6,10/4/2024,10/15/2024,null,89
-KALX,"Doors, Frames & Hardware",48,TAT Technologies Ltd.,7,4/15/2024,11/2/2023,null,74
-KMWH,Curb & Gutter,38,Easterly Acquisition Corp.,8,7/12/2024,4/12/2024,null,68
-EFJO,Roofing (Metal),31,iShares Core MSCI Total International Stock ETF,1,1/23/2024,5/23/2024,null,32
-MRAO,Rebar & Wire Mesh Install,13,Invesco Quality Municipal Income Trust,1,3/14/2024,9/1/2024,null,50
-MHRU,Structural & Misc Steel Erection,5,"Alaska Communications Systems Group, Inc.",9,6/19/2024,7/6/2024,null,42
-LGKA,Drilled Shafts,64,"Westbury Bancorp, Inc.",6,12/25/2023,9/18/2024,null,46
-CSU2,Roofing (Asphalt),40,"Value Line, Inc.",5,5/6/2024,9/9/2024,null,95
-GFGK,Waterproofing & Caulking,43,"Great Western Bancorp, Inc.",9,2/7/2024,7/7/2024,null,35
-F70,Waterproofing & Caulking,65,First Trust CEF Income Opportunity ETF,7,5/13/2024,8/13/2024,null,81
-DXNG,Sitework & Site Utilities,33,"Canon, Inc.",1,12/10/2023,2/21/2024,null,20
-EFKK,Termite Control,16,"Staffing 360 Solutions, Inc.",7,4/17/2024,6/16/2024,null,23
-YSTH,Overhead Doors,56,"Manhattan Bridge Capital, Inc",3,3/25/2024,6/25/2024,null,29
-FKKV,Structural and Misc Steel (Fabrication),31,SteadyMed Ltd.,7,2/23/2024,2/17/2024,null,95
-CYQN,Retaining Wall and Brick Pavers,22,"Blackbaud, Inc.",1,12/15/2023,6/22/2024,null,47
-YTRE,Granite Surfaces,39,Oconee Federal Financial Corp.,3,12/10/2023,1/30/2024,null,90
-SKFU,Electrical and Fire Alarm,8,Otter Tail Corporation,10,7/26/2024,5/28/2024,null,12
-YHSM,Epoxy Flooring,80,Agnico Eagle Mines Limited,7,10/30/2024,10/10/2024,null,23
-VTBK,Curb & Gutter,64,"Westmoreland Resource Partners, LP",7,1/6/2024,7/29/2024,null,23
-YIGM,RF Shielding,85,Hunter Maritime Acquisition Corp.,4,2/12/2024,4/27/2024,null,43
-,Curb & Gutter,64,Markel Corporation,1,3/5/2024,9/7/2024,null,45
-RJOW,Granite Surfaces,77,Briggs & Stratton Corporation,2,6/8/2024,9/9/2024,null,89
-ZBAR,Epoxy Flooring,95,ProPetro Holding Corp.,2,3/7/2024,11/27/2023,null,38
-KGVL,"Temp Fencing, Decorative Fencing and Gates",29,"Fiserv, Inc.",3,3/31/2024,2/1/2024,null,88
-AYKM,HVAC,24,Golden Ocean Group Limited,3,9/5/2024,10/19/2024,null,4
-TJSJ,Granite Surfaces,6,LiNiu Technology Group,8,1/5/2024,4/18/2024,null,40
-SVST,Wall Protection,81,"Armstrong Flooring, Inc.",5,2/7/2024,7/7/2024,null,52
-FEFG,Casework,20,State Street Corporation,2,6/6/2024,7/23/2024,null,76
-LBTG,Roofing (Metal),86,KKR Income Opportunities Fund,10,5/13/2024,10/31/2023,null,30
-KASX,Waterproofing & Caulking,82,"Carrizo Oil & Gas, Inc.",4,8/23/2024,2/18/2024,null,17
-PHNG,Glass & Glazing,5,"Aptose Biosciences, Inc.",1,7/24/2024,12/23/2023,null,9
-NVSC,"Temp Fencing, Decorative Fencing and Gates",60,Public Storage,8,12/12/2023,5/2/2024,null,80
-YMUG,RF Shielding,24,BlackRock Resources,9,3/1/2024,2/29/2024,null,88
-SWST,"Doors, Frames & Hardware",60,"Patriot National, Inc.",3,9/20/2024,3/30/2024,null,49
-LFMV,Glass & Glazing,49,"ING Group, N.V.",8,10/25/2024,12/20/2023,null,91
-KSEE,Framing (Steel),81,iPath US Treasury 2-year Bull ETN,5,2/8/2024,2/13/2024,null,60
-OPTH,Framing (Steel),75,ProShares Ultra Nasdaq Biotechnology,2,4/6/2024,4/14/2024,null,40
-KMAC,Framing (Wood),28,PowerShares DWA Energy Momentum Portfolio,1,4/12/2024,11/3/2023,null,75
-YTGM,Masonry,64,ManpowerGroup,9,4/24/2024,8/6/2024,null,48
-E13,Sitework & Site Utilities,13,Sears Holdings Corporation,5,1/26/2024,11/5/2023,null,23
-,Fire Sprinkler System,73,"Anthera Pharmaceuticals, Inc.",5,5/15/2024,2/10/2024,null,83
-FCOU,Wall Protection,41,Zynga Inc.,10,8/31/2024,6/29/2024,null,63
-CYYR,Fire Sprinkler System,64,iShares Commodities Select Strategy ETF,10,1/21/2024,1/19/2024,null,84
-,Hard Tile & Stone,82,Andina Acquisition Corp. II,10,5/8/2024,10/15/2024,null,87
-UMBB,Fire Protection,75,"Lakeland Bancorp, Inc.",4,8/25/2024,6/10/2024,null,7
+21695-240,Site Furnishings,48,Carolina Financial Corporation,2,7/13/2024,3/25/2024,null,90
+48951-1232,RF Shielding,60,Gabelli Dividend,9,11/30/2023,7/25/2024,null,74
+53217-018,Marlite Panels (FED),22,"Papa John's International, Inc.",9,3/4/2024,7/27/2024,null,80
+13537-312,Retaining Wall and Brick Pavers,53,Aurinia Pharmaceuticals Inc,5,8/9/2024,4/22/2024,null,20
+61481-0037,Waterproofing & Caulking,20,Axar Acquisition Corp.,1,3/16/2024,11/18/2023,null,6
+54575-449,Glass & Glazing,27,RXi Pharmaceuticals Corporation,8,2/17/2024,5/14/2024,null,24
+0187-3555,Framing (Steel),70,"Tenax Therapeutics, Inc.",3,3/25/2024,12/22/2023,null,80
+65044-1744,Drywall & Acoustical (FED),88,Citigroup Inc.,5,12/30/2023,3/24/2024,null,52
+55289-381,Structural and Misc Steel (Fabrication),42,"First Connecticut Bancorp, Inc.",8,2/6/2024,6/5/2024,null,96
+57520-0544,Fire Sprinkler System,36,Clearwater Paper Corporation,6,5/27/2024,12/21/2023,null,71
+11822-6030,Waterproofing & Caulking,26,Agree Realty Corporation,8,11/27/2023,10/6/2024,null,62
+68989-575,Termite Control,27,John Hancock Income Securities Trust,5,5/4/2024,7/30/2024,null,39
+43857-0219,Hard Tile & Stone,83,"Royce Micro-Cap Trust, Inc.",5,4/18/2024,10/18/2024,null,12
+54569-2968,Construction Clean and Final Clean,5,Fulton Financial Corporation,2,8/13/2024,3/11/2024,null,28
+54575-454,Epoxy Flooring,43,"Hartford Financial Services Group, Inc. (The)",6,11/7/2023,10/27/2024,null,100
+48951-0076,Roofing (Asphalt),52,Euroseas Ltd.,1,2/17/2024,7/11/2024,null,48
+61919-232,Waterproofing & Caulking,41,"QuinStreet, Inc.",3,1/24/2024,1/20/2024,null,48
+66116-510,Exterior Signage,84,"Onconova Therapeutics, Inc.",10,10/27/2024,5/28/2024,null,67
+49035-195,Epoxy Flooring,72,Toyota Motor Corp Ltd Ord,7,2/8/2024,9/12/2024,null,29
+21695-325,Masonry & Precast,98,"Spirit Airlines, Inc.",5,4/15/2024,8/7/2024,null,40
+47335-151,Structural and Misc Steel (Fabrication),77,Humana Inc.,3,4/9/2024,11/26/2023,null,23
+42508-150,Painting & Vinyl Wall Covering,42,YY Inc.,7,7/12/2024,2/24/2024,null,16
+0924-0140,Construction Clean and Final Clean,2,Taylor Morrison Home Corporation,9,10/19/2024,10/15/2024,null,9
+0904-5572,Ornamental Railings,75,Western Union Company (The),3,7/4/2024,11/9/2023,null,10
+76237-225,Sitework & Site Utilities,5,MRC Global Inc.,1,5/11/2024,1/27/2024,null,91
+57520-0424,Elevator,78,Nuveen Energy MLP Total Return Fund,8,7/20/2024,9/5/2024,null,28
+53489-500,Soft Flooring and Base,73,Balchem Corporation,7,11/24/2023,6/4/2024,null,80
+55154-6526,Sitework & Site Utilities,29,"Stein Mart, Inc.",1,10/30/2024,8/25/2024,null,17
+67172-898,Termite Control,9,"Liberty Tax, Inc.",9,3/14/2024,10/11/2024,null,97
+35356-792,Casework,28,"Opexa Therapeutics, Inc.",6,3/19/2024,4/4/2024,null,11
+43538-521,Overhead Doors,12,Attunity Ltd.,7,10/17/2024,7/13/2024,null,7
+69097-157,Painting & Vinyl Wall Covering,27,BlackRock Credit Allocation Income Trust,1,3/20/2024,12/19/2023,null,92
+16590-778,"Temp Fencing, Decorative Fencing and Gates",1,Double Eagle Acquisition Corp.,5,5/25/2024,7/4/2024,null,48
+55154-2058,Electrical and Fire Alarm,15,"Xenith Bankshares, Inc.",3,8/15/2024,1/13/2024,null,88
+49349-677,Drywall & Acoustical (MOB),48,Fluidigm Corporation,2,2/9/2024,5/18/2024,null,10
+58118-2331,Painting & Vinyl Wall Covering,21,"Raven Industries, Inc.",8,2/28/2024,4/29/2024,null,68
+57520-0138,Roofing (Metal),70,"Alon USA Energy, Inc.",8,6/22/2024,9/27/2024,null,66
+0378-0144,Hard Tile & Stone,93,"Akebia Therapeutics, Inc.",6,7/12/2024,3/28/2024,null,55
+43063-201,Plumbing & Medical Gas,72,NorthWestern Corporation,4,2/16/2024,12/10/2023,null,34
+51706-301,EIFS,45,"NetApp, Inc.",7,5/17/2024,6/15/2024,null,74
+49035-722,Drywall & Acoustical (FED),74,First Trust International Multi-Asset Diversified Income Index,9,4/14/2024,4/27/2024,null,41
+68472-108,EIFS,31,"CBL & Associates Properties, Inc.",8,6/19/2024,7/13/2024,null,32
+0406-9934,Soft Flooring and Base,49,"South Jersey Industries, Inc.",3,2/27/2024,8/25/2024,null,75
+0095-0202,Electrical and Fire Alarm,48,"Photronics, Inc.",2,10/15/2024,4/25/2024,null,33
+24090-479,HVAC,9,"Aptose Biosciences, Inc.",7,12/14/2023,8/10/2024,null,89
+40046-0070,Hard Tile & Stone,77,"Superior Energy Services, Inc.",8,1/27/2024,1/3/2024,null,13
+65841-733,Framing (Wood),83,"U S Concrete, Inc.",10,2/7/2024,7/15/2024,null,44
+41163-498,RF Shielding,40,E.W. Scripps Company (The),1,7/24/2024,4/1/2024,null,27
+13537-564,Masonry,100,EPR Properties,2,9/16/2024,4/21/2024,null,16
+59667-0015,Hard Tile & Stone,88,First Trust Enhanced Short Maturity ETF,3,12/4/2023,5/14/2024,null,15

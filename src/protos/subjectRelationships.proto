@@ -5,8 +5,12 @@ service SubjectRelationships {
   rpc GetSubjectRelationship (GetSubjectRelationshipRequest) returns (SubjectRelationship) {}
   rpc UpdateSubjectRelationship (UpdateSubjectRelationshipRequest) returns (SubjectRelationship) {}
   rpc DeleteSubjectRelationship (DeleteSubjectRelationshipRequest) returns (SubjectRelationshipResponse) {}
-  rpc GetAllSubjectRelationships (ListSubjectRelationshipsRequest) returns (ListSubjectRelationshipsResponse) {}
+  rpc GetAllSubjectRelationships (Empty) returns (ListSubjectRelationshipsResponse) {}
+  rpc GetPostRequisitesMap (Empty) returns (PostRequisitesMapResponse) {}
+  rpc GetPreRequisitesMap (Empty) returns (PreRequisitesMapResponse) {}
 }
+
+message Empty {}
 
 message SubjectRelationship {
   string id = 1;
@@ -37,8 +41,6 @@ message DeleteSubjectRelationshipRequest {
   string id = 1;
 }
 
-message ListSubjectRelationshipsRequest {}
-
 message ListSubjectRelationshipsResponse {
   repeated SubjectRelationship subjectRelationships = 1;
 }
@@ -46,3 +48,17 @@ message ListSubjectRelationshipsResponse {
 message SubjectRelationshipResponse {
   bool success = 1;
 }
+
+message RequisiteList {
+  repeated string codes = 1;
+}
+
+
+message PostRequisitesMapResponse {
+  map<string, RequisiteList> postRequisitesMap = 1;
+}
+
+message PreRequisitesMapResponse {
+  map<string, RequisiteList> preRequisitesMap = 1;
+}
+

@@ -6,6 +6,7 @@ import SubjectsRelationships, {
 } from "@/models/subjectRelationshipModel";
 import catchAsync from "@/utils/catchAsync";
 import AppError from "@/utils/appErrors";
+import { RequisitesMap } from "@/types";
 
 export const createSubjectRelationship = catchAsync(
   async (
@@ -41,7 +42,10 @@ export const getSubjectRelationship = catchAsync(
     const subjectRelationship = await SubjectsRelationships.findById(id);
 
     if (!subjectRelationship) {
-      throw new AppError("Relación entre asignaturas no encontrada", status.NOT_FOUND);
+      throw new AppError(
+        "Relación entre asignaturas no encontrada",
+        status.NOT_FOUND
+      );
     }
     return callback(null, subjectRelationship);
   }
@@ -105,10 +109,53 @@ export const getAllSubjectRelationships = catchAsync(
   }
 );
 
+// Get Post-Requisites Map
+export const getPostRequisitesMap = catchAsync(
+  async (
+    call: ServerUnaryCall<{}, {}>,
+    callback: sendUnaryData<{ postRequisitesMap: RequisitesMap }>
+  ) => {
+    const relationshipsList = await SubjectsRelationships.find();
+
+    const postRequisitesMap: RequisitesMap = {};
+    relationshipsList.forEach((sr) => {
+      if (postRequisitesMap[sr.preSubjectCode]) {
+        postRequisitesMap[sr.preSubjectCode].codes.push(sr.subjectCode);
+      } else {
+        postRequisitesMap[sr.preSubjectCode] = { codes: [sr.subjectCode] };
+      }
+    });
+
+    callback(null, { postRequisitesMap });
+  }
+);
+
+// Get Pre-Requisites Map
+export const getPreRequisitesMap = catchAsync(
+  async (
+    call: ServerUnaryCall<{}, {}>,
+    callback: sendUnaryData<{ preRequisitesMap: RequisitesMap }>
+  ) => {
+    const relationshipsList = await SubjectsRelationships.find();
+
+    const preRequisitesMap: RequisitesMap = {};
+    relationshipsList.forEach((sr) => {
+      if (preRequisitesMap[sr.subjectCode]) {
+        preRequisitesMap[sr.subjectCode].codes.push(sr.preSubjectCode);
+      } else {
+        preRequisitesMap[sr.subjectCode] = { codes: [sr.preSubjectCode] };
+      }
+    });
+    callback(null, { preRequisitesMap });
+  }
+);
+
 export default {
   createSubjectRelationship,
   getSubjectRelationship,
   updateSubjectRelationship,
   deleteSubjectRelationship,
   getAllSubjectRelationships,
+  getPostRequisitesMap,
+  getPreRequisitesMap,
 };
