@@ -49,7 +49,9 @@ server.bindAsync(
         `- Entorno:      ${environments[process.env.NODE_ENV || 'development']}`,
       );
       console.log(`- Puerto:       ${port}`);
-      console.log(`- URL:          ${process.env.SERVER_URL}:${port}`);
+      console.log(
+        `- URL:          ${process.env.SERVER_URL || 'localhost'}:${port}`,
+      );
     }
   },
 );
