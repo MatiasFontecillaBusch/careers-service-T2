@@ -1,6 +1,11 @@
 import { model, Schema } from 'mongoose';
 
 const SubjectSchema = new Schema({
+  _id: {
+    type: Schema.Types.UUID,
+    required: true,
+    immutable: true,
+  },
   code: { type: String, required: true },
   name: { type: String, maxlength: 250, required: true },
   department: { type: String, maxlength: 250, required: true },
