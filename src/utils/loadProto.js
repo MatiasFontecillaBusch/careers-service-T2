@@ -1,13 +1,16 @@
-import path from 'path';
 import { loadPackageDefinition } from '@grpc/grpc-js';
-import { loadSync } from '@grpc/proto-loader';
-import { fileURLToPath } from 'url';
+import protoLoader from '@grpc/proto-loader';
+import path from 'path';
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+export function loadProto(serviceName) {
+  const PROTO_PATH = path.join('src', 'protos', `${serviceName}.proto`);
+  const packageDefinition = protoLoader.loadSync(PROTO_PATH, {
+    keepCase: true,
+    longs: String,
+    enums: String,
+    defaults: true,
+    oneofs: true,
+  });
 
-export const loadProto = (filename) => {
-  const protoPath = path.join(__dirname, '../protos', `${filename}.proto`);
-  const packageDefinition = loadSync(protoPath);
-  return loadPackageDefinition(packageDefinition);
-};
+  return loadPackageDefinition(packageDefinition)[serviceName];
+}

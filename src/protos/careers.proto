@@ -1,11 +1,12 @@
 syntax = "proto3";
 
+package careers;
 service Careers {
-  rpc CreateCareer (CreateCareerRequest) returns (Career) {}
-  rpc GetCareer (GetCareerRequest) returns (Career) {}
-  rpc UpdateCareer (UpdateCareerRequest) returns (Career) {}
-  rpc DeleteCareer (DeleteCareerRequest) returns (Career) {}
-  rpc GetAllCareers (ListCareersRequest) returns (ListCareersResponse) {}
+  rpc CreateCareer (CreateCareerRequest) returns (Career);
+  rpc GetCareer (GetCareerRequest) returns (Career);
+  rpc UpdateCareer (UpdateCareerRequest) returns (Career);
+  rpc DeleteCareer (DeleteCareerRequest) returns (Career);
+  rpc GetAllCareers (ListCareersRequest) returns (ListCareersResponse);
 }
 
 message Career {

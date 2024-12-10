@@ -1,13 +1,16 @@
 syntax = "proto3";
 
+
+package subjectRelationships;
+
 service SubjectRelationships {
-  rpc CreateSubjectRelationship (CreateSubjectRelationshipRequest) returns (SubjectRelationship) {}
-  rpc GetSubjectRelationship (GetSubjectRelationshipRequest) returns (SubjectRelationship) {}
-  rpc UpdateSubjectRelationship (UpdateSubjectRelationshipRequest) returns (SubjectRelationship) {}
-  rpc DeleteSubjectRelationship (DeleteSubjectRelationshipRequest) returns (SubjectRelationshipResponse) {}
-  rpc GetAllSubjectRelationships (Empty) returns (ListSubjectRelationshipsResponse) {}
-  rpc GetPostRequisitesMap (Empty) returns (PostRequisitesMapResponse) {}
-  rpc GetPreRequisitesMap (Empty) returns (PreRequisitesMapResponse) {}
+  rpc CreateSubjectRelationship (CreateSubjectRelationshipRequest) returns (SubjectRelationship);
+  rpc GetSubjectRelationship (GetSubjectRelationshipRequest) returns (SubjectRelationship);
+  rpc UpdateSubjectRelationship (UpdateSubjectRelationshipRequest) returns (SubjectRelationship);
+  rpc DeleteSubjectRelationship (DeleteSubjectRelationshipRequest) returns (SubjectRelationshipResponse);
+  rpc GetAllSubjectRelationships (Empty) returns (ListSubjectRelationshipsResponse);
+  rpc GetPostRequisitesMap (Empty) returns (PostRequisitesMapResponse);
+  rpc GetPreRequisitesMap (Empty) returns (PreRequisitesMapResponse);
 }
 
 message Empty {}
