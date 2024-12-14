@@ -19,10 +19,6 @@ message SubjectRelationship {
   string id = 1;
   string subjectCode = 2;
   string preSubjectCode = 3;
-  string createdAt = 4;
-  string updatedAt = 5;
-  string deletedAt = 6;
-  int32 version = 7;
 }
 
 message CreateSubjectRelationshipRequest {

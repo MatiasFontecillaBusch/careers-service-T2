@@ -17,10 +17,6 @@ message Subject {
   int32 credits = 4;
   string department = 5;
   int32 semester = 6;
-  string createdAt = 7;
-  string updatedAt = 8;
-  string deletedAt = 9;
-  int32 version = 10;
 }
 
 message CreateSubjectRequest {
