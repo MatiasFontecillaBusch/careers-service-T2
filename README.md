@@ -30,7 +30,12 @@ Este servicio forma parte del Taller 2 de Arquitectura de Sistemas.
    - Personaliza las variables si es necesario, NODE_ENV debe ser "production".
 
 
-4. Ejecuta el comando para iniciar el servicio:
+4. Ejecuta el comando para llenar la base de datos:
    ```bash
-   npm start
+   npm run seed
    ``` 
+
+5. Ejecuta el comando para iniciar el servicio:
+```bash
+npm start
+``` 
