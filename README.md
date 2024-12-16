@@ -5,7 +5,7 @@ Este servicio forma parte del Taller 2 de Arquitectura de Sistemas.
 ## Requisitos Previos
 
 - Node.js versión 22 o superior
-- Base de datos SQLserver
+- Base de datos MongoDB
 - RabbitMQ
 
 ## Instalación
