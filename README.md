@@ -13,7 +13,7 @@ Este servicio forma parte del Taller 2 de Arquitectura de Sistemas.
 1. Clona el repositorio:
    ```bash
    git clone https://github.com/MatiasFontecillaBusch/careers-service-T2.git
-   cd careers-service-T2$
+   cd careers-service-T2
    ```
 
 2. Instala las dependencias:
